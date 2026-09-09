@@ -8,10 +8,27 @@
         .check{
             text-decoration: line-through black;
         }
+        .toto{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+         
+        }
+         .todo{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color:rgb(33, 226, 233);
+            width: fit-content
+        }
+
+
     </style>
 </head>
-<body>
-    <h1>To Do List</h1>
+<body  class="toto">
+    <h1  class="todo">To Do List</h1>
     <form action="submit">
         <input type="text" placeholder="enter a task..."  id="name">
         <input type="datetime-local"  id="date">
